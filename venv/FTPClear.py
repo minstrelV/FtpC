@@ -70,6 +70,8 @@ for ftpfile in ftp.nlst():
         ftp.delete(ls[-1])
         break
 
+#some code added in dev
+
 print ('Closing FTP connection')
 ftp.close()
 
